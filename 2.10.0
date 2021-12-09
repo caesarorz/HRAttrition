@@ -1,0 +1,39 @@
+Requirement already satisfied: dask[delayed] in c:\users\50687\anaconda3\lib\site-packages (2.30.0)
+Collecting dask-ml
+  Downloading dask_ml-2021.11.30-py3-none-any.whl (148 kB)
+Requirement already satisfied: fsspec in c:\users\50687\anaconda3\lib\site-packages (0.8.3)
+Requirement already satisfied: distributed in c:\users\50687\anaconda3\lib\site-packages (2.30.1)
+Requirement already satisfied: pyyaml in c:\users\50687\anaconda3\lib\site-packages (from dask[delayed]) (5.3.1)
+Requirement already satisfied: toolz>=0.8.2; extra == "delayed" in c:\users\50687\anaconda3\lib\site-packages (from dask[delayed]) (0.11.1)
+Requirement already satisfied: cloudpickle>=0.2.2; extra == "delayed" in c:\users\50687\anaconda3\lib\site-packages (from dask[delayed]) (1.6.0)
+Requirement already satisfied: pandas>=0.24.2 in c:\users\50687\anaconda3\lib\site-packages (from dask-ml) (1.1.3)
+Requirement already satisfied: multipledispatch>=0.4.9 in c:\users\50687\anaconda3\lib\site-packages (from dask-ml) (0.6.0)
+Requirement already satisfied: scikit-learn>=1.0.0 in c:\users\50687\anaconda3\lib\site-packages (from dask-ml) (1.0.1)
+Collecting dask-glm>=0.2.0
+  Downloading dask_glm-0.2.0-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: scipy in c:\users\50687\anaconda3\lib\site-packages (from dask-ml) (1.5.2)
+Requirement already satisfied: packaging in c:\users\50687\anaconda3\lib\site-packages (from dask-ml) (20.4)
+Collecting numpy>=1.20.0
+  Using cached numpy-1.21.4-cp38-cp38-win_amd64.whl (14.0 MB)
+Requirement already satisfied: numba>=0.51.0 in c:\users\50687\anaconda3\lib\site-packages (from dask-ml) (0.51.2)
+Requirement already satisfied: setuptools in c:\users\50687\anaconda3\lib\site-packages (from distributed) (50.3.1.post20201107)
+Requirement already satisfied: sortedcontainers!=2.0.0,!=2.0.1 in c:\users\50687\anaconda3\lib\site-packages (from distributed) (2.2.2)
+Requirement already satisfied: click>=6.6 in c:\users\50687\anaconda3\lib\site-packages (from distributed) (7.1.2)
+Requirement already satisfied: tornado>=6.0.3; python_version >= "3.8" in c:\users\50687\anaconda3\lib\site-packages (from distributed) (6.0.4)
+Requirement already satisfied: tblib>=1.6.0 in c:\users\50687\anaconda3\lib\site-packages (from distributed) (1.7.0)
+Requirement already satisfied: msgpack>=0.6.0 in c:\users\50687\anaconda3\lib\site-packages (from distributed) (1.0.0)
+Requirement already satisfied: psutil>=5.0 in c:\users\50687\anaconda3\lib\site-packages (from distributed) (5.7.2)
+Requirement already satisfied: zict>=0.1.3 in c:\users\50687\anaconda3\lib\site-packages (from distributed) (2.0.0)
+Requirement already satisfied: pytz>=2017.2 in c:\users\50687\anaconda3\lib\site-packages (from pandas>=0.24.2->dask-ml) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in c:\users\50687\anaconda3\lib\site-packages (from pandas>=0.24.2->dask-ml) (2.8.1)
+Requirement already satisfied: six in c:\users\50687\anaconda3\lib\site-packages (from multipledispatch>=0.4.9->dask-ml) (1.15.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in c:\users\50687\anaconda3\lib\site-packages (from scikit-learn>=1.0.0->dask-ml) (2.1.0)
+Requirement already satisfied: joblib>=0.11 in c:\users\50687\anaconda3\lib\site-packages (from scikit-learn>=1.0.0->dask-ml) (0.17.0)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\50687\anaconda3\lib\site-packages (from packaging->dask-ml) (2.4.7)
+Requirement already satisfied: llvmlite<0.35,>=0.34.0.dev0 in c:\users\50687\anaconda3\lib\site-packages (from numba>=0.51.0->dask-ml) (0.34.0)
+Requirement already satisfied: heapdict in c:\users\50687\anaconda3\lib\site-packages (from zict>=0.1.3->distributed) (1.0.1)
+Installing collected packages: dask-glm, numpy, dask-ml
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.19.2
+    Uninstalling numpy-1.19.2:
+      Successfully uninstalled numpy-1.19.2
